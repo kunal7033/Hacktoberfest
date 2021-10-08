@@ -215,8 +215,7 @@ BigInteger& BigInteger::operator /=(BigInteger b){
 BigInteger& BigInteger::operator %=(BigInteger b){
 	(*this)=(*this)%b;
 	return (*this);
-}
-
+}//for modulo equal operator
 
 
 
